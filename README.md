@@ -18,7 +18,7 @@ This is a simple **To-Do List application** built with **Core PHP** and styled u
 - Add new tasks
 - Edit existing tasks
 - Delete tasks
-- Mark tasks as complete (if implemented)
+- Mark tasks as complete
 - Clean and responsive design using Bootstrap
 
 ---
@@ -28,12 +28,11 @@ This is a simple **To-Do List application** built with **Core PHP** and styled u
 ```bash
 Todo-List-By-PHP-Bootstrap/
 ├── index.php → Main task view page
-├── insert.php → Handles adding tasks
-├── update.php → Handles updating tasks
-├── delete.php → Handles deleting tasks
-├── db.php → Database connection
-├── style.css → Custom styles (if any)
-└── todo.sql → SQL file to create the database
+├── backend.php → Add new task handle backend
+├── update.php → Handle updating tasks
+├── delete.php → Handle deleting tasks
+└── check.php → Handle marking task 
+
 ```
 
 
