@@ -10,7 +10,6 @@
 
         if(mysqli_query($conn,$query))
         {
-            echo "QUERRY RUN";
             header('Location: index.php');
             exit();
         }
