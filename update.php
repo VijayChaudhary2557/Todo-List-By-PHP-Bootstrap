@@ -8,7 +8,6 @@
     if(isset($_GET['title']))
     {
         $title = $_GET['title'];
-        echo "HJiiiiiiiiiii";
     }
 
     
@@ -20,8 +19,6 @@
     else
     {
         $title = $_POST['updateTask'];
-        echo "$id<br>";
-        echo "$title<br>";
 
         $query = "UPDATE todo SET title = '$title' WHERE id = $id";
 
